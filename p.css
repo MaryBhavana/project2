@@ -1,0 +1,80 @@
+/* html{
+    filter: blur(6px);
+} */
+    h1{
+      text-align: center;
+      padding:40px 0px 0px 0px ;
+      color: black;
+}
+    h1:before {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background: #000;
+        right: 870px;
+        top:80px;
+        position: absolute;
+      }
+      
+      h1:after {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background: #000;
+        right:550px;
+        top:80px;
+        position: absolute;
+      }
+    .grid-item1{
+        border: 2px solid red;
+        height:250px;
+        width:200px;
+        box-shadow: 2px 2px 6px gray;
+        border-radius: 5px;
+        color: red;
+        text-align: center;
+        position: relative;
+        left: 650px;
+    }
+    .p1{
+        text-align: center;
+        font-size: 34px;
+        color: black;
+    }
+    del{
+        font-size: 23px;
+    }
+    span{
+        color: red;
+        cursor: pointer;
+    }
+    .s1{
+        color: red;
+        position: relative;
+        left: 85px;
+        top:50px;
+        cursor: pointer;
+    }
+    
+    
+    form{
+        font-size: 20px;
+        color: black;
+        text-align: left;
+        margin:2px;
+    }
+    .hr1{
+        position: absolute;
+        left:20px;
+        width:160px;
+        position: relative;
+        top:0px;
+        color:aliceblue;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    
